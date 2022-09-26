@@ -1,0 +1,911 @@
+<!DOCTYPE html>   
+<html lang="en">   
+<head>   
+    <style>
+        a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #04AA6D;
+  color: black;
+  border-radius: 50%;
+}
+    </style>
+<meta charset="utf-8">   
+<title>FILE LIST</title>   
+<meta name="description" content="Bootstrap.">  
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">   
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css"></style>
+<script type="text/javascript" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>  
+<body style="margin:20px auto">  
+<div class="container">
+<div class="row header" style="text-align:left;color:green; border-radius: 20%;">
+    <a href="index.html" class="previous">&laquo; Previous</a>
+</div>
+<div style="text-align:center;color:green; font-size: 30px; font-weight: bold;">
+    <marquee width="40%" direction="left" height="100px" onmouseover="this.stop();" onmouseout="this.start();">
+        FILE LIST (IT BRANCH)
+        </marquee>
+    </div>
+
+
+<table id="myTable" class="table table-striped table-bordered table-responsive table-hover" >  
+        <thead>  
+          <tr>  
+            <th>File Number</th>  
+            <th>Subject</th>  
+            <th>S No. </th>  
+            
+          </tr>  
+        </thead>  
+        <tbody>  
+          <tr>
+            <td>F.2 (31)/F&amp;S/CC/2009</td>
+            <td>UPDATION OF WEBSITE </td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>F.2 (31)/F&amp;S/Comp/12-13</td>
+            <td>AUDIT(2)</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>F.2(4)/F&amp;S/COMP. CELL/Part File 1 to 3</td>
+            <td>Purchase of Computer</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>F.2(50)/F&amp;S/COMP/09-10</td>
+            <td>AMC OF SERVER HCL MAKE</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>F.1 (43)/F&amp;S/COMP/11-12/Part File 1 to 4</td>
+            <td>CIRCULAR/MEETING NOTICE/ MISC.CORRESPONDENCE  </td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>F.2 (28)/F&amp;S/COMP/08-09/TPDS/FT.FILE(2)</td>
+            <td>COMPUTERIZATION WITH VIGILANCE BRANCH (2)</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>F.2(37)/COMP/09-10/U.I-II/Part file 1 to 2 </td>
+            <td>CORRESPONDENCE WITH VIGILANCE BRANCH (2)</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>F.2(40)/F&amp;S/COMP/09-10</td>
+            <td>PURCHASE OF COMPUTER ACCESSORIES</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>F.2(84)/F&amp;S/COMP/1112/Part File 1 to 2</td>
+            <td>BUDGET ESTIMATE/REVISED ESTIMATE (BUDGET ALLOCATION)</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>F.2(77)/F&amp;S/COMP/11-12</td>
+            <td>AMC OF 5 KVA ONLINE UPS (TRITONICS)</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>F.2(70)/F&amp;S/COMP/2011</td>
+            <td>MATTER/ISSUE RAISED BY MLA'S/MP'S RELATED TO DEVELOPMENT OF DELHI</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>F.2(71)/F&amp;S/COMP/GIS/11-12</td>
+            <td>3D GEO SPATIAL INFORMATION SYSTEM</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>F.2(101)/F&amp;S/COMP/10-11/VOL-IIA</td>
+            <td>TENDERDING PROCESS FOR SELECTION OF VENDER FOR PRINTING OF RATION CARDS(2)</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>F.2(45)/F&amp;S/COMP/10-11</td>
+            <td>ENGAGEMENT OF CONTRACTUAL STAFF FROM DOEACC (2)</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>F.2(61)/F&amp;S/COMP/10-11/part file 1 to 5</td>
+            <td>CORRESPONDENCE WITH NIC/IT DEPTT.</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>F.2(29)/F&amp;S/COMP</td>
+            <td>BANGLADESH REPORT</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>F.2(57)/F&amp;S/COMP/10-11</td>
+            <td>IMPLEMENTATION OF LAN</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>F.2(92)/F&amp;S/COMP/11-12</td>
+            <td>PROVISION OF DATA CARD DEVICE</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>F.2(95)/F&amp;S/COMP/11-12</td>
+            <td>PROCUREMENT OF DRUM HL-5240 BROTHER</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>F.2(82)/F&amp;S/COMP/11-12</td>
+            <td>E-GOVERENCE</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>F.2(135)/F&amp;S/COMP/PDS/11-12</td>
+            <td>PURCHASE OF HP G3110 SCANNER</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>F.2(28)/F&amp;S/COMP/AMC</td>
+            <td>AMC OF COMPUTERS OF PERIPHERAS (UPS)</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>F.2(47)/F&amp;S/COMP/09-10</td>
+            <td>PURCHASE OFSMF BATTERIES FOR UPS </td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>F.2(41)/F&amp;S/COMP/part file 1 to 2</td>
+            <td>CONCURRENCE OF LEASE LINE</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>F.2(86)/F&amp;S/COMP/11-12</td>
+            <td>CORRESPONDENCE WITH CONSUMER AFFAIRS DEPTT.</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>F.2(41)/F&amp;S/COMP/part file-I</td>
+            <td>Payment of Lease Line Circuit.(MTNL)</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>F.2(72)/F&amp;S/COMP/11-12</td>
+            <td>AMC OF COMPUTER, PRINTER, INSTALLED AT STATE COMMISSION &amp; UNION DISTT. FORUMS</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>F.2(89)/F&amp;S/COMP/11-12/PT.FILE-II</td>
+            <td>DATA ENTRY OPERATOR</td>
+            <td>27</td>
+        </tr>
+        <tr>
+            <td>F.2(96)/F&amp;S/COMP/12-13</td>
+            <td>ATTENDENCE MONITORY SYSTEM</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>F.2(86)/F&amp;S/COMP/11-12</td>
+            <td>LEGAL MATTERS OF M/S VIRGO</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <td>F.2(90)/F&amp;S/COMP/11-12</td>
+            <td>CUSTOMIZATION OF CAS</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>F.2(50)/F&amp;S/COMP/09-10</td>
+            <td>AMC OF COMPUTER &amp; PRINTER (PAYMENT)</td>
+            <td>31</td>
+        </tr>
+        <tr>
+            <td>F.2(75)/F&amp;S/COMP/11/I-T PROFESSIONAL</td>
+            <td>HIRING OF IT PROFESSIONAL FROM NICSI</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>F.2(48)/F&amp;S/COMP/09-10</td>
+            <td>PARLIAMENTARY/VIDHAN SABHA QUESTIONS</td>
+            <td>33</td>
+        </tr>
+        <tr>
+            <td>F.2(38)/F&amp;S/COMP/12-13</td>
+            <td>CORRESPONDENCE WITH ADMN./OFFICE ORDER</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>F.1(4)/F&amp;S/COMP.CELL/PART FILE</td>
+            <td>HARDWARE REQUIREMENT'S FOR CAS</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>F.2(98)/F&amp;S/COMP</td>
+            <td>V I P</td>
+            <td>36</td>
+        </tr>
+        <tr>
+            <td>F.2(99)/F&amp;S/COMP</td>
+            <td>P G C</td>
+            <td>37</td>
+        </tr>
+        <tr>
+            <td>F.2(100)/F&amp;S/COMP</td>
+            <td>K F D</td>
+            <td>38</td>
+        </tr>
+        <tr>
+            <td>F.2(101)/F&amp;S/COMP</td>
+            <td>Annashree Yojna</td>
+            <td>39</td>
+        </tr>
+        <tr>
+            <td>F.2(102)/F&amp;S/COMP</td>
+            <td>Procurement of Printer etc. (Addl. Requirement)</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>F.2(103)/F&amp;S/COMP</td>
+            <td>IP Address Conflict </td>
+            <td>41</td>
+        </tr>
+        <tr>
+            <td>F.2(1)/F&amp;S/COMP</td>
+            <td>Mission Convergence (2)</td>
+            <td>42</td>
+        </tr>
+        <tr>
+            <td>F.1(4)/F&amp;S/COMP/2012/PT./FILE 3</td>
+            <td>Bar Code Reader</td>
+            <td>43</td>
+        </tr>
+        <tr>
+            <td>F.2(104)/F&amp;S/COMP/Trg.</td>
+            <td>Minutes</td>
+            <td>44</td>
+        </tr>
+        <tr>
+            <td>F.2(105)/F&amp;S/COMP/</td>
+            <td>Commissioner Minutes</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>F.2(106)/F&amp;S/COMP/</td>
+            <td>Training / Conference</td>
+            <td>46</td>
+        </tr>
+        <tr>
+            <td>F.2(94)/F&amp;S/COMP/</td>
+            <td>I.T. Strategy (2) (End-to-End Computerization of TPDS)</td>
+            <td>47</td>
+        </tr>
+        <tr>
+            <td>F.2(107)/F&amp;S/COMP/</td>
+            <td>Role of Aadhar (2)</td>
+            <td>48</td>
+        </tr>
+        <tr>
+            <td>F.2(42)/F&amp;S/COMP/</td>
+            <td>e-SLA</td>
+            <td>49</td>
+        </tr>
+        <tr>
+            <td>F.2(80)/F&amp;S/</td>
+            <td>e-Procurement-Digital Signature</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>F.2(108)/F&amp;S/</td>
+            <td>Electric Service Delivery </td>
+            <td>51</td>
+        </tr>
+        <tr>
+            <td>F.2(109)/F&amp;S/COMP/2013-2014</td>
+            <td>Misc. File 2013-14/Orders/Circular updated</td>
+            <td>52</td>
+        </tr>
+        <tr>
+            <td>F.2(110)/F&amp;S/COMP</td>
+            <td>Purchase of Antivirus</td>
+            <td>53</td>
+        </tr>
+        <tr>
+            <td>F.2(111)/F&amp;S/COMP/Part file 1 to 2</td>
+            <td>FPS Automation/        HTQC </td>
+            <td>54</td>
+        </tr>
+        <tr>
+            <td>F.2(112)/F&amp;S/COMP</td>
+            <td>Administrative matter (Misc.)</td>
+            <td>55</td>
+        </tr>
+        <tr>
+            <td>F.2(113)/F&amp;S/COMP</td>
+            <td>Correspondence with NIC</td>
+            <td>56</td>
+        </tr>
+        <tr>
+            <td>F.2(114)/F&amp;S/COMP</td>
+            <td>e-Distt. Project </td>
+            <td>57</td>
+        </tr>
+        <tr>
+            <td>F.2(115)/F&amp;S/COMP</td>
+            <td>Petty purchase</td>
+            <td>58</td>
+        </tr>
+        <tr>
+            <td>F.2(116)/F&amp;S/COMP</td>
+            <td>Successful payment under "DAY"</td>
+            <td>59</td>
+        </tr>
+        <tr>
+            <td>F.2(117)/F&amp;S/COMP</td>
+            <td>Part payment under "DAY"</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>F.2(118)/F&amp;S/COMP</td>
+            <td>Rejected payment under "DAY"</td>
+            <td>61</td>
+        </tr>
+        <tr>
+            <td>F.2(119)/F&amp;S/COMP</td>
+            <td>Stop payment under "DAY"</td>
+            <td>62</td>
+        </tr>
+        <tr>
+            <td>F.2(120)/F&amp;S/COMP</td>
+            <td>Correspondence with Banks</td>
+            <td>63</td>
+        </tr>
+        <tr>
+            <td>F.2(121)/F&amp;S/COMP/13-14/NFS</td>
+            <td>ICSIL (nfso-2013)</td>
+            <td>64</td>
+        </tr>
+        <tr>
+            <td>F.2(122)/F&amp;S/COMP/13-14/PDS</td>
+            <td>Public Notification under PDS</td>
+            <td>65</td>
+        </tr>
+        <tr>
+            <td>F.2(123)/F&amp;S/COMP/13-14/Plastic Card</td>
+            <td>Card-Smart card type ration card-NFS Bill (Plastic Card)</td>
+            <td>66</td>
+        </tr>
+        <tr>
+            <td>F.2(124)/F&amp;S/COMP/13-14/NFSCC/part file 1 to 2</td>
+            <td>Security audit for National Food Security Consumer Card Application/SSL Certificate</td>
+            <td>67</td>
+        </tr>
+        <tr>
+            <td>F.2(125)/F&amp;S/COMP</td>
+            <td>Opening for Call centre</td>
+            <td>68</td>
+        </tr>
+        <tr>
+            <td>F.2(126)/F&amp;S/COMP</td>
+            <td>Opening for Call centre</td>
+            <td>69</td>
+        </tr>
+        <tr>
+            <td>F.2(127)/F&amp;S/COMP</td>
+            <td>DBT for "DAY"</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>F.2(128)/F&amp;S/COMP</td>
+            <td>DAY-UID</td>
+            <td>71</td>
+        </tr>
+        <tr>
+            <td>F.2(129)/F&amp;S/COMP</td>
+            <td>user ids of e-PDS</td>
+            <td>72</td>
+        </tr>
+        <tr>
+            <td>F.2(130)/F&amp;S/COMP</td>
+            <td>Adjustment Bills at NICSI for Assistant Programmers</td>
+            <td>73</td>
+        </tr>
+        <tr>
+            <td>F.2(131)/F&amp;S/COMP/13-14/GRMS</td>
+            <td>Grievance Redressal Mechanism</td>
+            <td>74</td>
+        </tr>
+        <tr>
+            <td>F.2(132)/F&amp;S/COMP/13-14/Benefits</td>
+            <td>Benefits related to Annshree &amp; Ration Cards</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <td>F.2(133)/F&amp;S/COMP</td>
+            <td>Rename of Computer Branch</td>
+            <td>76</td>
+        </tr>
+        <tr>
+            <td>F.2(134)/F&amp;S/COMP</td>
+            <td>Installation of Video Conferences </td>
+            <td>77</td>
+        </tr>
+        <tr>
+            <td>F.2(135)/F&amp;S/COMP</td>
+            <td>PGMS Grievances</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>F.2(136)/F&amp;S/COMP</td>
+            <td>POS-FPS Automation (Minutes of the meeting)</td>
+            <td>79</td>
+        </tr>
+        <tr>
+            <td>F.1(137)/F&amp;S/COMP</td>
+            <td>State Commission- Purchase of Computer</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>F.1(138)/F&amp;S/COMP/</td>
+            <td>Condemnation of Hardware items</td>
+            <td>81</td>
+        </tr>
+        <tr>
+            <td>F.1(139)/F&amp;S/COMP</td>
+            <td>Miscellancous Correspondance Regarding NFSA, 2013</td>
+            <td>82</td>
+        </tr>
+        <tr>
+            <td>F.1(140)/F&amp;S/COMP</td>
+            <td>National e-Governance Award</td>
+            <td>83</td>
+        </tr>
+        <tr>
+            <td>F.2(2N)/F&amp;S/COMP/2007/Part File </td>
+            <td>AMC of UPS.</td>
+            <td>84</td>
+        </tr>
+        <tr>
+            <td>F.2(34)/F&amp;S/COMP/2009-10</td>
+            <td>Customization of PDS software</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>F.2(141)/F&amp;S/COMP/2014-15/</td>
+            <td>Hiring of Computers</td>
+            <td>86</td>
+        </tr>
+        <tr>
+            <td>F.2(123)/F&amp;S/COMP/2013-14 part file- II </td>
+            <td>NFS web Portal</td>
+            <td>87</td>
+        </tr>
+        <tr>
+            <td>F.3(40)/F&amp;S/COMP/2013/P&amp;C/NFS/Part File-</td>
+            <td>NSDL Payment File</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <td>F.2(142)/F&amp;S/IT/2014-15/</td>
+            <td>EFFECTIVE SERVICE DELIVERY</td>
+            <td>89</td>
+        </tr>
+        <tr>
+            <td>F.2(143)/F&amp;S/IT/2014-15/</td>
+            <td>QUEERYs REGARDING-FOOD SECURITY RATION CARD</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>F.2(144)/F&amp;S/IT/2014-15/</td>
+            <td>CIC/RTI/PGC</td>
+            <td>91</td>
+        </tr>
+        <tr>
+            <td>F.2(145)/F&amp;S/IT/2014-15/</td>
+            <td>LIVE INFORMATION IN THE PROTAL ABOUT DISPOSAL OF FOOD SECURITY APPLICATION BY FSO/FSI</td>
+            <td>92</td>
+        </tr>
+        <tr>
+            <td>F.2(146)/F&amp;S/IT/2014-15/</td>
+            <td>PROVISION OF e-RATION CARD (ONLINE)</td>
+            <td>93</td>
+        </tr>
+        <tr>
+            <td>F.2(147)/F&amp;S/IT/2014-15/Part file 1 to 2</td>
+            <td>PROVISION OF SMS</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>F.2(148)/F&amp;S/IT/2014-15/</td>
+            <td>ALLOCATION</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>F.2(149)/F&amp;S/IT/2014-15/</td>
+            <td>Implementation of e-Office</td>
+            <td>96</td>
+        </tr>
+        <tr>
+            <td>F.2(150)/F&amp;S/IT/2014-15/</td>
+            <td>Continuation of Temporary I.T. Cadre Posts (Under Plan&amp; Non Plan)</td>
+            <td>97</td>
+        </tr>
+        <tr>
+            <td>F.2(151)/F&amp;S/IT/2014-15/</td>
+            <td>Provision of NFS Prtal</td>
+            <td>98</td>
+        </tr>
+        <tr>
+            <td>F.2(152)/F&amp;S/IT/2015-16/</td>
+            <td>Rejected Cases Under NFSA</td>
+            <td>99</td>
+        </tr>
+        <tr>
+            <td>F.2(153)/F&amp;S/IT/2015-16/Part file 1 to 2</td>
+            <td>I.V.R. System</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>F.2(154)/F&amp;S/IT/2015-16/</td>
+            <td>AUDIT</td>
+            <td>101</td>
+        </tr>
+        <tr>
+            <td>F.2(155)/F&amp;S/IT/2015-16/</td>
+            <td>DEO's and assistant programmer Issues Pare-I</td>
+            <td>102</td>
+        </tr>
+        <tr>
+            <td>F.2(156)/F&amp;S/IT/2015-16/</td>
+            <td>Issues Related to Technical Manpower on Hiring Basis</td>
+            <td>104</td>
+        </tr>
+        <tr>
+            <td>F.2(157)/F&amp;S/IT/2015-16/</td>
+            <td>Provision for Ration Dispenser at FPS</td>
+            <td>105</td>
+        </tr>
+        <tr>
+            <td>F.2(158)/F&amp;S/IT/2015-16/</td>
+            <td>Employee date/BSES/MCD/DDA/Delhi Police/NDMC/P.A.O/Transport for NFSA, 2013</td>
+            <td>106</td>
+        </tr>
+        <tr>
+            <td>F.2(159)/F&amp;S/IT/2015-16/</td>
+            <td>Tender ID: 2015_FSCAD_90212_1FPS Automation-I, II</td>
+            <td>107</td>
+        </tr>
+        <tr>
+            <td>F.2(160)/F&amp;S/IT/2015-16/</td>
+            <td>FPS Renewal Licence</td>
+            <td>108</td>
+        </tr>
+        <tr>
+            <td>F.2(161)/F&amp;S/IT/2015-16/</td>
+            <td>Various issues/Possibility Related to NFS Cards</td>
+            <td>109</td>
+        </tr>
+        <tr>
+            <td>F.2(162)/F&amp;S/IT/2015-16/</td>
+            <td>NIC Clouds Service  CD No. 000346319</td>
+            <td>110</td>
+        </tr>
+        <tr>
+            <td>F.2(163)/F&amp;S/IT/2015-16/</td>
+            <td>Regarding Uploading the detail of New FPS on NFSA portal</td>
+            <td>111</td>
+        </tr>
+        <tr>
+            <td>F.2(164)/F&amp;S/IT/2015-16/</td>
+            <td>Report of Cancelled Card</td>
+            <td>112</td>
+        </tr>
+        <tr>
+            <td>F.2(165)/F&amp;S/IT/2015-16/Part file 1 to 2</td>
+            <td>Purchase of Computer (DGS&amp;D) (GeM)</td>
+            <td>113</td>
+        </tr>
+        <tr>
+            <td>F.2(166)/F&amp;S/IT/2015-16/</td>
+            <td>Purchase of Computer  (Delhi Sarkar Vahan Chalak Samiti)</td>
+            <td>114</td>
+        </tr>
+        <tr>
+            <td>F.2(167)/F&amp;S/IT/2015-16/</td>
+            <td>Circulars, Orders Website Uploading. </td>
+            <td>115</td>
+        </tr>
+        <tr>
+            <td>F.2(168)/F&amp;S/IT/2015-16/</td>
+            <td>Digital Payment System (CASHLESS)</td>
+            <td>116</td>
+        </tr>
+        <tr>
+            <td>F.1(759)/CFS/GEN/2013-14</td>
+            <td>Installation of Biometric Machine (CD No. 000275649)</td>
+            <td>117</td>
+        </tr>
+        <tr>
+            <td>F.2 (169)/F&amp;S/IT/2017-18</td>
+            <td>Online RTI</td>
+            <td>118</td>
+        </tr>
+        <tr>
+            <td>F.2 (36)/F&amp;S/Comp/2013-14</td>
+            <td>RTI/Grievance Matter</td>
+            <td>119</td>
+        </tr>
+        <tr>
+            <td>F.2 (170)/F&amp;S/IT/2017-18</td>
+            <td>Various Weekly Report</td>
+            <td>120</td>
+        </tr>
+        <tr>
+            <td>F.2 (171)/F&amp;S/IT/2017-18</td>
+            <td>FEAST-RO</td>
+            <td>121</td>
+        </tr>
+        <tr>
+            <td>F.2 (172)/F&amp;S/IT/2017-18</td>
+            <td>Door to Door Delivery of Ration</td>
+            <td>122</td>
+        </tr>
+        <tr>
+            <td>F.2 (173)/F&amp;S/IT/2017-18</td>
+            <td>Status Report on Importent Project in F&amp;S Department.</td>
+            <td>123</td>
+        </tr>
+        <tr>
+            <td>F.2 (174)/F&amp;S/IT/2017-18</td>
+            <td>Present Status of e-PoS Project and request for issuing Acceptance Certificate (BEL)</td>
+            <td>124</td>
+        </tr>
+        <tr>
+            <td>F.2 (175)/F&amp;S/IT/2017-18/Part file 1 to 3</td>
+            <td>Correspondence with BEL</td>
+            <td>125</td>
+        </tr>
+        <tr>
+            <td>F.2 (176)/F&amp;S/IT/2018-19</td>
+            <td>Online Format for TPDS Control Orders</td>
+            <td>126</td>
+        </tr>
+        <tr>
+            <td>F.2 (177)/F&amp;S/IT/2018-19</td>
+            <td>AMC of Desktop, Printers, Scanners &amp; UPS etc.</td>
+            <td>127</td>
+        </tr>
+        <tr>
+            <td>F.2 (178)/F&amp;S/IT/2018-19</td>
+            <td>Implementation of IM-PDS.</td>
+            <td>128</td>
+        </tr>
+        <tr>
+            <td>F.2 (179)/F&amp;S/IT/2017-18</td>
+            <td>Discrepancy in closing balance in r/o month April(Allocation)</td>
+            <td>129</td>
+        </tr>
+        <tr>
+            <td>F.2 (180)/F&amp;S/IT/2017-18</td>
+            <td>Status report on transactions</td>
+            <td>130</td>
+        </tr>
+        <tr>
+            <td>F.2 (181)/F&amp;S/IT/2017-18</td>
+            <td>Data entry of applications of services at e-district portal</td>
+            <td>131</td>
+        </tr>
+        <tr>
+            <td>F.2 (182)/F&amp;S/IT/2017-18</td>
+            <td>Review of chief secretary</td>
+            <td>132</td>
+        </tr>
+        <tr>
+            <td>F.2 (183)/F&amp;S/IT/2017-18</td>
+            <td>Door step delivery of public services</td>
+            <td>133</td>
+        </tr>
+        <tr>
+            <td>F.2 (184)/F&amp;S/IT/2017-18</td>
+            <td>Data analystics exercise</td>
+            <td>134</td>
+        </tr>
+        <tr>
+            <td>F.2 (185)/F&amp;S/IT/2017-18</td>
+            <td>Annavitran portal</td>
+            <td>135</td>
+        </tr>
+        <tr>
+            <td>F.2 (186)/F&amp;S/IT/2017-18</td>
+            <td>Matter related to court</td>
+            <td>136</td>
+        </tr>
+        <tr>
+            <td>F.2 (187)/F&amp;S/IT/2018-19</td>
+            <td>All DEOs work and related file to admn branch</td>
+            <td>137</td>
+        </tr>
+        <tr>
+            <td>F.2 (188)/F&amp;S/IT/2018-19</td>
+            <td>GPS bases monitoring of trucks supplying specified food articles</td>
+            <td>138</td>
+        </tr>
+        <tr>
+            <td>F.2 (189)/F&amp;S/IT/2019-20</td>
+            <td>Matter of HoF change in NFS ID-1445402 and 1444446</td>
+            <td>139</td>
+        </tr>
+        <tr>
+            <td>F.2 (190)/F&amp;S/IT/2019-20</td>
+            <td>Monthly report NITI Aayog Form-41</td>
+            <td>140</td>
+        </tr>
+        <tr>
+            <td>F.2 (191)/F&amp;S/IT/2019-20</td>
+            <td>Correspondence with DSCSC/FCI</td>
+            <td>141</td>
+        </tr>
+        <tr>
+            <td>F.2 (192)/F&amp;S/IT/2019-20</td>
+            <td>Hiring of Assistant Programmer</td>
+            <td>142</td>
+        </tr>
+        <tr>
+            <td>F.2 (193)/F&amp;S/IT/2019-20</td>
+            <td>Settlement of Accounts with MICSI in r/o manpower</td>
+            <td>143</td>
+        </tr>
+        <tr>
+            <td>F.2 (194)/F&amp;S/IT/2019-20</td>
+            <td>Intrgration of Ration card data of the Ayushman Bharat</td>
+            <td>144</td>
+        </tr>
+        <tr>
+            <td>F.2 (195)/F&amp;S/IT/2019-20</td>
+            <td>Installation of CCTV cameras on all FPS in Delhi</td>
+            <td>145</td>
+        </tr>
+        
+        <tr>
+            <td>F.2 (197)/F&amp;S/IT/2020-21</td>
+            <td>Hearing Notice/Appeal</td>
+            <td>147</td>
+        </tr>
+        <tr>
+            <td>F.2 (198)/F&amp;S/IT/2020-21</td>
+            <td>Indian code portal</td>
+            <td>148</td>
+        </tr>
+        <tr>
+            <td>F.2 (199)/F&amp;S/IT/2020-21</td>
+            <td>Distribution of SFA during lockdown</td>
+            <td>149</td>
+        </tr>
+        <tr>
+            <td>F.2 (200)/F&amp;S/IT/2020-21</td>
+            <td>Collection of PDS foodgrains dist report through google form </td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>F.2 (201)/F&amp;S/IT/2020-21</td>
+            <td>Allocation to migrants Atmanirbhar Bharat</td>
+            <td>151</td>
+        </tr>
+        <tr>
+            <td>F.2 (202)/F&amp;S/IT/2020-21</td>
+            <td>DEO's and MTS Attendance of IT Branch</td>
+            <td>152</td>
+        </tr>
+        <tr>
+            <td>F.2 (203)/F&amp;S/IT/2020-21</td>
+            <td>Payment of BEL</td>
+            <td>153</td>
+        </tr>
+        <tr>
+            <td>F.2 (204)/F&amp;S/IT/2020-21/Part file 1 to 2</td>
+            <td>One nation one ration card</td>
+            <td>154</td>
+        </tr>
+        <tr>
+            <td>F.2 (205)/F&amp;S/IT/2020-21</td>
+            <td>connectivity in circle office through Raittel</td>
+            <td>155</td>
+        </tr>
+        <tr>
+            <td>F.2 (207)/F&amp;S/IT/2020-21</td>
+            <td>Entity/Header REgistration on DLT Platform of TSP & Exemption from TRAI for SMS</td>
+            <td>156</td>
+        </tr>
+        <tr>
+            <td>F.2 (207)/F&amp;S/IT/2020-21</td>
+            <td>India @ 75</td>
+            <td>157</td>
+        </tr>
+        <tr>
+            <td>F.2 (208)/F&amp;S/IT/2020-21</td>
+            <td>Technical aspects of MMGGRY Scheme</td>
+            <td>158</td>
+        </tr>
+        <tr>
+            <td>F.2 (209)/F&amp;S/IT/2020-21</td>
+            <td>Integration of online payment gateway for FPS License</td>
+            <td>159</td>
+        </tr>
+        <tr>
+            <td>F.2 (210)/F&amp;S/IT/2020-21</td>
+            <td>Renovation of IT</td>
+            <td>160</td>
+        </tr>
+        <tr>
+            <td>F.2 (211)/F&amp;S/IT/2020-21</td>
+            <td>Extension of engagement of Technical manpower</td>
+            <td>161</td>
+        </tr>
+        <tr>
+            <td>F.2 (212)/F&amp;S/IT/2020-21</td>
+            <td>Distribution of E-Pos Devices </td>
+            <td>162</td>
+        </tr>
+        <tr>
+            <td>F.2 (213)/F&amp;S/IT/2020-21</td>
+            <td>Computer status</td>
+            <td>163</td>
+        </tr>
+        <tr>
+            <td>F.2 (214)/F&amp;S/IT/2020-22</td>
+            <td>Purchase of Video Conference</td>
+            <td>164</td>
+        </tr>
+        <tr>
+            <td>F.2 (215)/F&amp;S/IT/2020-23</td>
+            <td>TA claim Bill</td>
+            <td>165</td>
+        </tr>
+        <tr>
+            <td>F.2 (216)/F&amp;S/IT/2022-23</td>
+            <td>OUTSOURCING OF SCANNING/DIGITIZING OF MANUAL 
+                FILES (CURRENT/OLD) OF
+                 F & S DEPTT. FOR E-OFFICE IMPLEMENTATION
+                </td>
+            <td>166</td>
+        </tr>
+        <tr>
+            <td>F.2 (217)/F&amp;S/IT/2022-23</td>
+            <td>SUPPLY INSTALLATION OF ROUTER SWITCHES AND MAN-POWER</td>
+            <td>167</td>
+        </tr>
+        <tr>
+            <td>F.2 (219)/F&amp;S/IT/2022-23</td>
+            <td>LIFTING RATION FROM OTHER STATE FPS UNDER ONORC SCHEME</td>
+            <td>169</td>
+        </tr>
+        <tr>
+            <td>F.2 (218)/F&amp;S/IT/2022-23</td>
+            <td>Verification of Ration Card beneficiaries through e-kyc</td>
+            <td>168</td>
+        </tr>
+        <tr>
+            <td>F.2 (220)/F&amp;S/IT/2022-23</td>
+            <td>Implementation of E-Governance</td>
+            <td>170</td>
+        </tr>
+        </tbody>  
+      </table>  
+	  </div>
+</body>  
+<script>
+$(document).ready(function(){
+    $('#myTable').dataTable();
+});
+</script>
+</html>  
